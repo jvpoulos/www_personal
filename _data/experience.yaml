@@ -1,61 +1,22 @@
-experiences:
-
-- place: "University of Washington"
-  time: "2023 - now"
-  title: "Assistant Professor"
-  subtitle: "Information School"
-  category: "work"
-
-- place: "Stanford"
-  time: "2020 - 2023"
-  title: "Postdoc"
-  subtitle: "MS&E"
-  category: "work"
-
-- place: "MIT"
-  time: "2014 - 2020"
-  title: "Ph.D. Student"
-  subtitle: "Media Lab, Laboratory for Social Machines"
-  category: "school"
-
-- place: "Facebook"
-  time: "Summer 2019"
-  title: "Research Scientist, Intern"
-  subtitle: "Core Data Science"
-  category: "work"
-
-- place: "LinkedIn"
-  time: "Summer 2016"
-  title: "Research Scientist, Intern"
-  subtitle: "Experimentation Group"
-  category: "work"
-
-- place: "Amazon"
-  time: "Summer 2014"
-  title: "Machine Learning Scientist, Intern"
-  subtitle: "Scalable Machine Learning Group"
-  category: "work"
-
-- place: "Yahoo! Labs"
-  time: "Feb-Aug 2013"
-  title: "Research Scientist, Intern"
-  subtitle: "Social Media Engagement Group"
-  category: "work"
-
-- place: "EM-DMKM"
-  time: "Sep 2011 – Aug 2013"
-  title: "M.Sc. Student"
-  subtitle: "Masters in Data Mining and Knowledge Management <br/> Year 1: University Pierre et Marie Curie <br/> Year 2: Universitat Politecnica de Catalunya <br/>"
-  category: "school"
-
-- place: "Jozef Stefan Institute"
-  time: "Jan-Aug 2011"
-  title: "Research Assistant"
-  subtitle: "Department of Knowledge Technologies"
-  category: "work"
-
-- place: "Staffordshire University"
-  time: "2007 - 2010"
-  title: "B.Sc. Student"
-  subtitle: "Computing Science <br/> First Class Honours"
-  category: "school"
+- dates: "2023 \u2013 Present"
+  description: Focus on developing predictive models for diabetes outcomes using electronic
+    health records.
+  institution: Brigham and Women's Hospital and Harvard Medical School
+  location: Boston, MA
+  position: Postdoctoral Fellow in Machine Learning
+- dates: "2021 \u2013 2023"
+  description: Developed machine learning models for large-scale health data analysis.
+  institution: Harvard Medical School
+  location: Boston, MA
+  position: Postdoctoral Fellow in Data Science
+- dates: "2019 \u2013 2021"
+  description: Worked on causal inference and machine learning applications in statistics.
+  institution: Statistical and Applied Mathematical Sciences Institute and Duke University
+  location: Durham, NC
+  position: Postdoctoral Associate in Statistics
+- dates: "2013 \u2013 2019"
+  description: Received Ph.D. with a Designated Emphasis in Computational Science
+    and Engineering.
+  institution: University of California, Berkeley
+  location: Berkeley, CA
+  position: Ph.D., Political Science

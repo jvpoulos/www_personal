@@ -1,9 +1,23 @@
-name: "Martin Saveski"
-title: "Assistant Professor, University of Washington"
-email: "msaveski [AT] uw.edu"
-profile_pic: "/assets/profile-pics/SU_small.jpg"
-twitter: "https://twitter.com/msaveski"
-linkedin: "https://www.linkedin.com/in/msaveski"
-github: "https://github.com/msaveski"
-google_scholar: "https://scholar.google.com/citations?user=M3D870YAAAAJ&hl=en"
-google_analystics_tracking_id: 'UA-46778883-1'
+bio: "I am a postdoctoral fellow at Brigham and Women's Hospital and Harvard Medical\
+  \ School, working on developing predictive models in medicine using electronic health\
+  \ records (EHRs). \nCurrently, I am leading a Patient-Centered Outcomes Research\
+  \ Institute (PCORI) funded project that leverages deep learning techniques to predict\
+  \ diabetes treatment failure. \nThis involves\
+  \ creating advanced models, such as transformer neural networks, to analyze static\
+  \ and temporal features (e.g., diagnoses and lab results) and uncover patterns predictive\
+  \ of adverse outcomes.\n\nBeyond predictive modeling, my research spans multiple\
+  \ areas at the intersection of machine learning and causal inference. I work on\
+  \ extending causal inference methods for multi-valued treatments, developing Bayesian\
+  \ frameworks for adversarial machine learning, and applying recurrent neural networks\
+  \ to panel data for causal impact estimation. \nMy work also includes evaluating\
+  \ deep learning approaches for missing data imputation in large-scale survey data.\n\
+  \nThe goal of my research is to build more interpretable and clinically relevant\
+  \ AI models, helping to advance personalized medicine and targeted interventions."
+email: poulos@berkeley.edu
+github: https://github.com/jvpoulos
+google_analystics_tracking_id: UA-89243069-1
+google_scholar: https://scholar.google.com/citations?hl=en&user=WFfJuAkAAAAJ
+linkedin: https://www.linkedin.com/in/jason-poulos-a4b843218/
+name: Jason Poulos
+profile_pic: /assets/profile-pics/153-Jason-Poulos-jvp5-Statistics/153-Jason-Poulos-jvp5-Statistics-7.jpg
+title: Postdoctoral Fellow, Brigham and Women's Hospital and Harvard Medical School
