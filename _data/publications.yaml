@@ -47,22 +47,6 @@ papers:
     code: "https://github.com/jvpoulos/ok-lottery"
     selected: n
 
-  - title: "Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"
-    authors: "<b>Jason Poulos</b>"
-    venue: "Journal of Historical Political Economy, 2021"
-    paper_pdf: "https://www.nowpublishers.com/article/Details/HPE-0013"
-    arxiv: "https://arxiv.org/abs/2103.14220"
-    code: "https://github.com/jvpoulos/amnesty"
-    selected: n
-
-  - title: "Land Lotteries, Long-Term Wealth, and Political Selection"
-    authors: "<b>Jason Poulos</b>"
-    venue: "Public Choice, 2019"
-    paper_pdf: "https://jasonpoulos.org/assets/publications/ga-lottery-puch.pdf"
-    arxiv: ""
-    code: "https://github.com/jvpoulos/ga-lottery"
-    selected: n
-
   - title: "Are Deep Learning Models Superior for Missing Data Imputation in Surveys? Evidence from an Empirical Comparison"
     authors: "Zhenhua Wang, Olanrewaju Akande, <b>Jason Poulos</b>, Fan Li"
     venue: "Survey Methodology, 2022"
@@ -87,6 +71,14 @@ papers:
     code: "https://github.com/jvpoulos/Attention-OCR"
     selected: y
 
+    - title: "Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"
+    authors: "<b>Jason Poulos</b>"
+    venue: "Journal of Historical Political Economy, 2021"
+    paper_pdf: "https://www.nowpublishers.com/article/Details/HPE-0013"
+    arxiv: "https://arxiv.org/abs/2103.14220"
+    code: "https://github.com/jvpoulos/amnesty"
+    selected: n
+
   - title: "Estimating Population Average Treatment Effects from Experiments with Noncompliance"
     authors: "Kellie Ottoboni, <b>Jason Poulos</b>"
     venue: "Journal of Causal Inference, 2020"
@@ -95,6 +87,14 @@ papers:
     code: "https://github.com/jvpoulos/patt-c"
     selected: y
 
+  - title: "Land Lotteries, Long-Term Wealth, and Political Selection"
+    authors: "<b>Jason Poulos</b>"
+    venue: "Public Choice, 2019"
+    paper_pdf: "https://jasonpoulos.org/assets/publications/ga-lottery-puch.pdf"
+    arxiv: ""
+    code: "https://github.com/jvpoulos/ga-lottery"
+    selected: n
+    
   - title: "Missing Data Imputation for Supervised Learning"
     authors: "Rafael Valle, <b>Jason Poulos</b>"
     venue: "Applied Artificial Intelligence, 2018"
