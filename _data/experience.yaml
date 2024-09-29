@@ -1,29 +1,29 @@
 experiences:
 
-- dates: "2023 \u2013 now"
+- time: "2023 \u2013 now"
   subtitle: Division of Endocrinology
   place: Brigham and Women's Hospital
   location: Boston, MA
   title: Postdoctoral Fellow in Machine Learning
   category: "work"
 
-- dates: "2021 \u2013 2023"
+- time: "2021 \u2013 2023"
   subtitle: Department of Health Care Policy
   place: Harvard Medical School
   location: Boston, MA
   title: Postdoctoral Fellow in Data Science
   category: "work"
 
-- dates: "2019 \u2013 2021"
+- time: "2019 \u2013 2021"
   subtitle: Causal Inference and Deep Learning programs
   place: SAMSI
   location: Durham, NC
   title: Postdoctoral Associate in Statistics
   category: "work"
 
-- dates: "2013 \u2013 2019"
+- time: "2013 \u2013 2019"
   subtitle: Designated Emphasis in Computational Science
-    and Engineering.
+    and Engineering
   place: University of California, Berkeley
   location: Berkeley, CA
   title: Ph.D., Political Science
