@@ -71,7 +71,7 @@ papers:
     code: "https://github.com/jvpoulos/Attention-OCR"
     selected: y
 
-    - title: "Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"
+  - title: "Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"
     authors: "<b>Jason Poulos</b>"
     venue: "Journal of Historical Political Economy, 2021"
     paper_pdf: "https://www.nowpublishers.com/article/Details/HPE-0013"
@@ -94,7 +94,7 @@ papers:
     arxiv: ""
     code: "https://github.com/jvpoulos/ga-lottery"
     selected: n
-    
+
   - title: "Missing Data Imputation for Supervised Learning"
     authors: "Rafael Valle, <b>Jason Poulos</b>"
     venue: "Applied Artificial Intelligence, 2018"
