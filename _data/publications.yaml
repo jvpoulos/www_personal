@@ -1,78 +1,105 @@
-- authors: Denis Agniel, Sharon-Lise Normand, John Newcomer, Katya Zelevinsky, Jason
-    Poulos, Jeannette Tsuei, Marcela Horvitz-Lennon
-  code_link: ''
-  journal: BJPsych Open, 2024
-  link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6415B9A04411928B5BB4A7E78D87CC8/S2056472424007270a.pdf
-  title: Revisiting Diabetes Risk of Olanzapine versus Aripiprazole for Serious Mental
-    Illness Care
-- authors: Jason Poulos
-  code_link: https://github.com/jvpoulos/homesteads
-  journal: Statistics and Public Policy, 2024
-  link: https://www.tandfonline.com/doi/full/10.1080/2330443X.2024.2356514
-  title: State-Building through Public Land Disposal? An Application of Matrix Completion
-    for Counterfactual Prediction
-- authors: Jason Poulos, Marcela Horvitz-Lennon, Katya Zelevinsky, Thomas Huijskens,
-    Pooja Tyagi, Jiaju Yan, Jordi Diaz, Tudor Cristea-Platon, Sharon-Lise Normand
-  code_link: https://github.com/jvpoulos/multi-tmle
-  journal: Statistics in Medicine, 2024
-  link: https://onlinelibrary.wiley.com/doi/10.1002/sim.10003
-  title: Targeted Learning in Observational Studies with Multi-Level Treatments
-- authors: Jason Poulos, Sharon-Lise Normand, Katya Zelevinsky, John Newcomer, Denis
-    Agniel, Haley Abing, Marcela Horvitz-Lennon
-  code_link: https://github.com/jvpoulos/multi-tmle
-  journal: Psychological Medicine, 2023
-  link: https://www.cambridge.org/core/journals/psychological-medicine/article/antipsychotics-and-the-risk-of-diabetes-and-death-among-adults-with-serious-mental-illnesses/5C589F1BD58061517FB8C60DBA22419F
-  title: Antipsychotics and the Risk of Diabetes and Death among Adults with Serious
-    Mental Illnesses
-- authors: "David Rios Insua, Roi Naveiro, V\xEDctor Gallego, Jason Poulos"
-  code_link: https://github.com/roinaveiro/aml_bayes
-  journal: Journal of the American Statistical Association, 2023
-  link: https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2183129
-  title: 'Adversarial Machine Learning: Bayesian Perspectives'
-- authors: Jason Poulos
-  category: Social Sciences
-  code_link: https://github.com/jvpoulos/ok-lottery
-  journal: Journal of Historical Political Economy, 2023
-  link: https://nowpublishers.com/article/Details/HPE-0042
-  title: Gender Gaps in Frontier Entrepreneurship? Evidence from 1901 Oklahoma Land
-    Lottery Winners
-- authors: Jason Poulos
-  category: Social Sciences
-  code_link: https://github.com/jvpoulos/amnesty
-  journal: Journal of Historical Political Economy, 2021
-  link: https://www.nowpublishers.com/article/Details/HPE-0013
-  title: 'Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from
-    a Regression Discontinuity Design'
-- authors: Jason Poulos
-  category: Social Sciences
-  code_link: https://github.com/jvpoulos/ga-lottery
-  journal: Public Choice, 2019
-  link: https://jvpoulos.github.io/assets/publications/ga-lottery-puch.pdf
-  title: Land Lotteries, Long-Term Wealth, and Political Selection
-- authors: Zhenhua Wang, Olanrewaju Akande, Jason Poulos, Fan Li
-  code_link: https://github.com/zhenhua-wang/MissingData_DL
-  journal: Survey Methodology, 2022
-  link: https://www150.statcan.gc.ca/n1/pub/12-001-x/2022002/article/00009-eng.htm
-  title: Are Deep Learning Models Superior for Missing Data Imputation in Surveys?
-    Evidence from an Empirical Comparison
-- authors: Jason Poulos, Shuxi Zeng
-  code_link: https://github.com/jvpoulos/rnns-causal
-  journal: Journal of the Royal Statistical Society (C), 2021
-  link: https://academic.oup.com/jrsssc/article/70/4/1124/7034010
-  title: RNN-Based Counterfactual Prediction, with an Application to Homestead Policy
-    and Public Schooling
-- authors: Rafael Valle, Jason Poulos
-  code_link: https://github.com/jvpoulos/Attention-OCR
-  journal: Neural Computing & Applications, 2021
-  link: https://jvpoulos.github.io/assets/publications/Poulos-Valle2021_Article_Character-basedHandwrittenText.pdf
-  title: Character-Based Handwritten Text Transcription with Attention Networks
-- authors: Kellie Ottoboni, Jason Poulos
-  code_link: https://github.com/jvpoulos/patt-c
-  journal: Journal of Causal Inference, 2020
-  link: https://www.degruyter.com/document/doi/10.1515/jci-2018-0035/html
-  title: Estimating Population Average Treatment Effects from Experiments with Noncompliance
-- authors: Rafael Valle, Jason Poulos
-  code_link: https://github.com/rafaelvalle/MDI
-  journal: Applied Artificial Intelligence, 2018
-  link: https://www.tandfonline.com/doi/full/10.1080/08839514.2018.1448143
-  title: Missing Data Imputation for Supervised Learning
+papers:
+  - title: "Revisiting Diabetes Risk of Olanzapine versus Aripiprazole for Serious Mental Illness Care"
+    authors: "Denis Agniel, Sharon-Lise Normand, John Newcomer, Katya Zelevinsky, Jason Poulos, Jeannette Tsuei, Marcela Horvitz-Lennon"
+    venue: "BJPsych Open, 2024"
+    paper_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6415B9A04411928B5BB4A7E78D87CC8/S2056472424007270a.pdf"
+    arxiv: ""
+    code: ""
+    selected: y
+
+  - title: "State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction"
+    authors: "Jason Poulos"
+    venue: "Statistics and Public Policy, 2024"
+    paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/2330443X.2024.2356514"
+    arxiv: "https://arxiv.org/abs/1903.08028"
+    code: "https://github.com/jvpoulos/homesteads"
+    selected: y
+
+  - title: "Targeted Learning in Observational Studies with Multi-Level Treatments"
+    authors: "Jason Poulos, Marcela Horvitz-Lennon, Katya Zelevinsky, Thomas Huijskens, Pooja Tyagi, Jiaju Yan, Jordi Diaz, Tudor Cristea-Platon, Sharon-Lise Normand"
+    venue: "Statistics in Medicine, 2024"
+    paper_pdf: "https://onlinelibrary.wiley.com/doi/10.1002/sim.10003"
+    arxiv: "https://arxiv.org/abs/2206.15367"
+    code: "https://github.com/jvpoulos/multi-tmle"
+    selected: y
+
+  - title: "Antipsychotics and the Risk of Diabetes and Death among Adults with Serious Mental Illnesses"
+    authors: "Jason Poulos, Sharon-Lise Normand, Katya Zelevinsky, John Newcomer, Denis Agniel, Haley Abing, Marcela Horvitz-Lennon"
+    venue: "Psychological Medicine, 2023"
+    paper_pdf: "https://www.cambridge.org/core/journals/psychological-medicine/article/antipsychotics-and-the-risk-of-diabetes-and-death-among-adults-with-serious-mental-illnesses/5C589F1BD58061517FB8C60DBA22419F"
+    arxiv: ""
+    code: "https://github.com/jvpoulos/multi-tmle"
+    selected: y
+
+  - title: "Adversarial Machine Learning: Bayesian Perspectives"
+    authors: "David Rios Insua, Roi Naveiro, Víctor Gallego, Jason Poulos"
+    venue: "Journal of the American Statistical Association, 2023"
+    paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2183129"
+    arxiv: "https://arxiv.org/abs/2003.03546"
+    code: "https://github.com/roinaveiro/aml_bayes"
+    selected: y
+
+  - title: "Gender Gaps in Frontier Entrepreneurship? Evidence from 1901 Oklahoma Land Lottery Winners"
+    authors: "Jason Poulos"
+    venue: "Journal of Historical Political Economy, 2023"
+    paper_pdf: "https://nowpublishers.com/article/Details/HPE-0042"
+    arxiv: "https://arxiv.org/abs/2206.14922"
+    code: "https://github.com/jvpoulos/ok-lottery"
+    selected: n
+
+  - title: "Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"
+    authors: "Jason Poulos"
+    venue: "Journal of Historical Political Economy, 2021"
+    paper_pdf: "https://www.nowpublishers.com/article/Details/HPE-0013"
+    arxiv: "https://arxiv.org/abs/2103.14220"
+    code: "https://github.com/jvpoulos/amnesty"
+    selected: n
+
+  - title: "Land Lotteries, Long-Term Wealth, and Political Selection"
+    authors: "Jason Poulos"
+    venue: "Public Choice, 2019"
+    paper_pdf: "https://jasonpoulos.org/assets/publications/ga-lottery-puch.pdf"
+    arxiv: ""
+    code: "https://github.com/jvpoulos/ga-lottery"
+    selected: n
+
+  - title: "Are Deep Learning Models Superior for Missing Data Imputation in Surveys? Evidence from an Empirical Comparison"
+    authors: "Zhenhua Wang, Olanrewaju Akande, Jason Poulos, Fan Li"
+    venue: "Survey Methodology, 2022"
+    paper_pdf: "https://www150.statcan.gc.ca/n1/pub/12-001-x/2022002/article/00009-eng.htm"
+    arxiv: "https://arxiv.org/abs/2103.09316"
+    code: "https://github.com/zhenhua-wang/MissingData_DL"
+    selected: y
+
+  - title: "RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling"
+    authors: "Jason Poulos, Shuxi Zeng"
+    venue: "Journal of the Royal Statistical Society (C), 2021"
+    paper_pdf: "https://academic.oup.com/jrsssc/article/70/4/1124/7034010"
+    arxiv: "https://arxiv.org/abs/1712.03553"
+    code: "https://github.com/jvpoulos/rnns-causal"
+    selected: y
+
+  - title: "Character-Based Handwritten Text Transcription with Attention Networks"
+    authors: "Rafael Valle, Jason Poulos"
+    venue: "Neural Computing & Applications, 2021"
+    paper_pdf: "https://jasonpoulos.org/assets/publications/Poulos-Valle2021_Article_Character-basedHandwrittenText.pdf"
+    arxiv: "https://arxiv.org/abs/1712.04046"
+    code: "https://github.com/jvpoulos/Attention-OCR"
+    selected: y
+
+  - title: "Estimating Population Average Treatment Effects from Experiments with Noncompliance"
+    authors: "Kellie Ottoboni, Jason Poulos"
+    venue: "Journal of Causal Inference, 2020"
+    paper_pdf: "https://www.degruyter.com/document/doi/10.1515/jci-2018-0035/html"
+    arxiv: "https://arxiv.org/abs/1901.02991"
+    code: "https://github.com/jvpoulos/patt-c"
+    selected: y
+
+  - title: "Missing Data Imputation for Supervised Learning"
+    authors: "Rafael Valle, Jason Poulos"
+    venue: "Applied Artificial Intelligence, 2018"
+    paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/08839514.2018.1448143"
+    arxiv: "https://arxiv.org/abs/1610.09075"
+    code: "https://github.com/rafaelvalle/MDI"
+    selected: y
+    supplementary: "https://jasonpoulos.org/assets/publications/mdi-supp.pdf"

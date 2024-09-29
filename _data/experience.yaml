@@ -1,22 +1,30 @@
-- dates: "2023 \u2013 Present"
-  description: Focus on developing predictive models for diabetes outcomes using electronic
-    health records.
-  institution: Brigham and Women's Hospital and Harvard Medical School
+experiences:
+
+- dates: "2023 \u2013 now"
+  subtitle: Division of Endocrinology
+  place: Brigham and Women's Hospital
   location: Boston, MA
-  position: Postdoctoral Fellow in Machine Learning
+  title: Postdoctoral Fellow in Machine Learning
+  category: "work"
+
 - dates: "2021 \u2013 2023"
-  description: Developed machine learning models for large-scale health data analysis.
-  institution: Harvard Medical School
+  subtitle: Department of Health Care Policy
+  place: Harvard Medical School
   location: Boston, MA
-  position: Postdoctoral Fellow in Data Science
+  title: Postdoctoral Fellow in Data Science
+  category: "work"
+
 - dates: "2019 \u2013 2021"
-  description: Worked on causal inference and machine learning applications in statistics.
-  institution: Statistical and Applied Mathematical Sciences Institute and Duke University
+  subtitle: Causal Inference and Deep Learning programs
+  place: SAMSI
   location: Durham, NC
-  position: Postdoctoral Associate in Statistics
+  title: Postdoctoral Associate in Statistics
+  category: "work"
+
 - dates: "2013 \u2013 2019"
-  description: Received Ph.D. with a Designated Emphasis in Computational Science
+  subtitle: Designated Emphasis in Computational Science
     and Engineering.
-  institution: University of California, Berkeley
+  place: University of California, Berkeley
   location: Berkeley, CA
-  position: Ph.D., Political Science
+  title: Ph.D., Political Science
+  ategory: "school"
