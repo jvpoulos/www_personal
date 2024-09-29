@@ -1,7 +1,8 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /jasonpoulos
+baseurl: ""
+url: "https://jasonpoulos.org"
 
 collections:
   projects:
