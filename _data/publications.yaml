@@ -3,8 +3,6 @@ papers:
     authors: "Denis Agniel, Sharon-Lise Normand, John Newcomer, Katya Zelevinsky, <b>Jason Poulos</b>, Jeannette Tsuei, Marcela Horvitz-Lennon"
     venue: "BJPsych Open, 2024"
     paper_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6415B9A04411928B5BB4A7E78D87CC8/S2056472424007270a.pdf"
-    arxiv: ""
-    code: ""
     selected: y
 
   - title: "State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction"
@@ -27,7 +25,6 @@ papers:
     authors: "<b>Jason Poulos</b>, Sharon-Lise Normand, Katya Zelevinsky, John Newcomer, Denis Agniel, Haley Abing, Marcela Horvitz-Lennon"
     venue: "Psychological Medicine, 2023"
     paper_pdf: "https://www.cambridge.org/core/journals/psychological-medicine/article/antipsychotics-and-the-risk-of-diabetes-and-death-among-adults-with-serious-mental-illnesses/5C589F1BD58061517FB8C60DBA22419F"
-    arxiv: ""
     code: "https://github.com/jvpoulos/multi-tmle"
     selected: y
 
@@ -91,7 +88,6 @@ papers:
     authors: "<b>Jason Poulos</b>"
     venue: "Public Choice, 2019"
     paper_pdf: "https://jasonpoulos.org/assets/publications/ga-lottery-puch.pdf"
-    arxiv: ""
     code: "https://github.com/jvpoulos/ga-lottery"
     selected: n
 
