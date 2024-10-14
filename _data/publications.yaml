@@ -16,7 +16,8 @@ papers:
   - title: "Targeted Learning in Observational Studies with Multi-Level Treatments: An Evaluation of Antipsychotic Drug Treatment Safety"
     authors: "<b>Jason Poulos</b>, Marcela Horvitz-Lennon, Katya Zelevinsky, Thomas Huijskens, Pooja Tyagi, Jiaju Yan, Jordi Diaz, Tudor Cristea-Platon, Sharon-Lise Normand"
     venue: "Statistics in Medicine, 2024"
-    paper_pdf: "https://onlinelibrary.wiley.com/doi/10.1002/sim.10003"
+    #paper_pdf: "https://onlinelibrary.wiley.com/doi/10.1002/sim.10003"
+    paper_pdf: "https://jasonpoulos.org/assets/publications/17894089.pdf"
     arxiv: "https://arxiv.org/abs/2206.15367"
     code: "https://github.com/jvpoulos/multi-tmle"
     selected: y
