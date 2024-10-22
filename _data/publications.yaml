@@ -98,5 +98,5 @@ papers:
     paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/08839514.2018.1448143"
     arxiv: "https://arxiv.org/abs/1610.09075"
     code: "https://github.com/rafaelvalle/MDI"
-    selected: y
+    selected: n
     supplementary: "https://jasonpoulos.org/assets/publications/mdi-supp.pdf"
