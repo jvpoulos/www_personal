@@ -62,7 +62,7 @@ papers:
     selected: y
 
   - title: "Character-Based Handwritten Text Transcription with Attention Networks"
-    authors: "Rafael Valle, <b>Jason Poulos</b>"
+    authors: "<b>Jason Poulos</b>, Rafael Valle"
     venue: "Neural Computing & Applications, 2021"
     paper_pdf: "https://jasonpoulos.org/assets/publications/Poulos-Valle2021_Article_Character-basedHandwrittenText.pdf"
     arxiv: "https://arxiv.org/abs/1712.04046"
@@ -93,10 +93,10 @@ papers:
     selected: n
 
   - title: "Missing Data Imputation for Supervised Learning"
-    authors: "Rafael Valle, <b>Jason Poulos</b>"
+    authors: "<b>Jason Poulos</b>, Rafael Valle"
     venue: "Applied Artificial Intelligence, 2018"
     paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/08839514.2018.1448143"
     arxiv: "https://arxiv.org/abs/1610.09075"
     code: "https://github.com/rafaelvalle/MDI"
-    selected: n
+    selected: y
     supplementary: "https://jasonpoulos.org/assets/publications/mdi-supp.pdf"
