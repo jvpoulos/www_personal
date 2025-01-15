@@ -17,7 +17,7 @@ papers:
     authors: "<b>Jason Poulos</b>, Marcela Horvitz-Lennon, Katya Zelevinsky, Thomas Huijskens, Pooja Tyagi, Jiaju Yan, Jordi Diaz, Tudor Cristea-Platon, Sharon-Lise Normand"
     venue: "Statistics in Medicine, 2024"
     #paper_pdf: "https://onlinelibrary.wiley.com/doi/10.1002/sim.10003"
-    paper_pdf: "https://jasonpoulos.org/assets/publications/17894089.pdf"
+    paper_pdf: "http://poulos.ai/assets/publications/17894089.pdf"
     arxiv: "https://arxiv.org/abs/2206.15367"
     code: "https://github.com/jvpoulos/multi-tmle"
     selected: y
@@ -64,7 +64,7 @@ papers:
   - title: "Character-Based Handwritten Text Transcription with Attention Networks"
     authors: "<b>Jason Poulos</b>, Rafael Valle"
     venue: "Neural Computing & Applications, 2021"
-    paper_pdf: "https://jasonpoulos.org/assets/publications/Poulos-Valle2021_Article_Character-basedHandwrittenText.pdf"
+    paper_pdf: "http://poulos.ai/assets/publications/Poulos-Valle2021_Article_Character-basedHandwrittenText.pdf"
     arxiv: "https://arxiv.org/abs/1712.04046"
     code: "https://github.com/jvpoulos/Attention-OCR"
     selected: y
@@ -88,7 +88,7 @@ papers:
   - title: "Land Lotteries, Long-Term Wealth, and Political Selection"
     authors: "<b>Jason Poulos</b>"
     venue: "Public Choice, 2019"
-    paper_pdf: "https://jasonpoulos.org/assets/publications/ga-lottery-puch.pdf"
+    paper_pdf: "http://poulos.ai/assets/publications/ga-lottery-puch.pdf"
     code: "https://github.com/jvpoulos/ga-lottery"
     selected: n
 
@@ -99,4 +99,4 @@ papers:
     arxiv: "https://arxiv.org/abs/1610.09075"
     code: "https://github.com/rafaelvalle/MDI"
     selected: y
-    supplementary: "https://jasonpoulos.org/assets/publications/mdi-supp.pdf"
+    supplementary: "http://poulos.ai/assets/publications/mdi-supp.pdf"
