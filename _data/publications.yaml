@@ -1,9 +1,15 @@
 papers:
+  - title: "Humanity's Last Exam"
+    authors: "Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, Josephina Hu, Hugh Zhang, Chen Bo Calvin Zhang, Mohamed Shaaban, John Ling, Sean Shi, Michael Choi, Anish Agrawal, Arnav Chopra, Adam Khoja, Ryan Kim, Richard Ren, Jason Hausenloy, Oliver Zhang, Mantas Mazeika, ..., <b>Jason Poulos</b>, et al. "
+    arxiv: "https://arxiv.org/abs/2501.14249"
+    code: "https://github.com/centerforaisafety/hle"
+    selected: y
+    
   - title: "Revisiting Diabetes Risk of Olanzapine versus Aripiprazole for Serious Mental Illness Care"
     authors: "Denis Agniel, Sharon-Lise Normand, John Newcomer, Katya Zelevinsky, <b>Jason Poulos</b>, Jeannette Tsuei, Marcela Horvitz-Lennon"
     venue: "BJPsych Open, 2024"
     paper_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6415B9A04411928B5BB4A7E78D87CC8/S2056472424007270a.pdf"
-    selected: y
+    selected: n
 
   - title: "State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction"
     authors: "<b>Jason Poulos</b>"
@@ -27,7 +33,7 @@ papers:
     venue: "Psychological Medicine, 2023"
     paper_pdf: "https://www.cambridge.org/core/journals/psychological-medicine/article/antipsychotics-and-the-risk-of-diabetes-and-death-among-adults-with-serious-mental-illnesses/5C589F1BD58061517FB8C60DBA22419F"
     code: "https://github.com/jvpoulos/multi-tmle"
-    selected: y
+    selected: n
 
   - title: "Adversarial Machine Learning: Bayesian Perspectives"
     authors: "David Rios Insua, Roi Naveiro, Víctor Gallego, <b>Jason Poulos</b>"
