@@ -1,4 +1,9 @@
 papers:
+  - title: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+    authors: "Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, Boxuan Li, Harsh Raj, Ivan Bercovich, Lin Shi, Jeong Y. Shin, Thomas Walshe, Junhong Shen, Guanghao Ye, Haowei Lin, <b>Jason Poulos</b>, Maoyu Wang, E. K. Buchanan, Jenia Jitsev, Marianna Nezhurina, Di Lu, Orfeas M. Mastromichalakis, ..., Ludwig Schmidt."
+    website: "https://www.tbench.ai/"
+    selected: y
+
   - title: "Humanity's Last Exam"
     authors: "Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, Josephina Hu, Hugh Zhang, Chen Bo Calvin Zhang, Mohamed Shaaban, John Ling, Sean Shi, Michael Choi, Anish Agrawal, Arnav Chopra, Adam Khoja, Ryan Kim, Richard Ren, Jason Hausenloy, Oliver Zhang, Mantas Mazeika, ..., <b>Jason Poulos</b>, et al. "
     arxiv: "https://arxiv.org/abs/2501.14249"
