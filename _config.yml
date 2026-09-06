@@ -2,7 +2,7 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 baseurl: ""
-url: "http://poulos.ai"
+url: "https://poulos.me"
 
 collections:
   projects:
