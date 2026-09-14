@@ -3,7 +3,8 @@ papers:
     authors: "Mike A. Merrill, Alexander G. Shaw, Nicholas Carlini, Boxuan Li, Harsh Raj, Ivan Bercovich, Lin Shi, Jeong Y. Shin, Thomas Walshe, Junhong Shen, Guanghao Ye, Haowei Lin, <b>Jason Poulos</b>, Maoyu Wang, E. K. Buchanan, Jenia Jitsev, Marianna Nezhurina, Di Lu, Orfeas M. Mastromichalakis, ..., Ludwig Schmidt."
     website: "https://www.tbench.ai/"
     arxiv: "https://arxiv.org/abs/2601.11868"
-    venue: "ICLR, 2026"
+    paper_pdf: "https://proceedings.iclr.cc/paper_files/paper/2026/file/444a3737adaee10d86ad2ef5f74468e6-Paper-Conference.pdf"
+    venue: "International Conference on Learning Representations, 2026"
     selected: y
 
   - title: "A benchmark of expert-level academic questions to assess AI capabilities"
