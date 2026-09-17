@@ -57,6 +57,7 @@ papers:
     paper_pdf: "https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2183129"
     arxiv: "https://arxiv.org/abs/2003.03546"
     code: "https://github.com/roinaveiro/aml_bayes"
+    notes: 'Awarded the <a href="https://www.seio.es/premios-seio-fbbva/" target="_blank">Premio SEIO-Fundación BBVA</a> (2026) for Best Contribution from Statistics and Operations Research to Data Science.'
     selected: y
 
   - title: "Gender Gaps in Frontier Entrepreneurship? Evidence from 1901 Oklahoma Land Lottery Winners"
