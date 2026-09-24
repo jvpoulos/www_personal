@@ -73,6 +73,10 @@ title:
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
 
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
           </div>
         </div>
       {% endfor %}
@@ -121,6 +125,10 @@ title:
 
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
             {% endif %}
 
           </div>
