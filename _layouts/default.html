@@ -7,13 +7,37 @@
   <meta charset="utf-8">
   <!-- <title>{{ site.data.main_info.name }} | {{ page.title }}</title> -->
   <title>{{ site.data.main_info.name }} {{ page.title }}</title>
-  <meta name="description" content="Jason Poulos">
-  <meta name="author" content="Jason Poulos">
-  <meta property="og:title" content="Jason Poulos" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://poulos.me" />
-  <meta property="og:site_name" content="Jason Poulos" />
-  <link rel="canonical" href="https://poulos.me" />
+  <meta name="description" content="{{ site.data.main_info.description }}">
+  <meta name="author" content="{{ site.data.main_info.name }}">
+  <meta property="og:title" content="{{ site.data.main_info.name }}" />
+  <meta property="og:description" content="{{ site.data.main_info.description }}" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:site_name" content="{{ site.data.main_info.name }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.data.main_info.profile_pic }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ site.data.main_info.name }}" />
+  <meta name="twitter:description" content="{{ site.data.main_info.description }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.data.main_info.profile_pic }}" />
+  <link rel="canonical" href="{{ site.url }}" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.data.main_info.name }}",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}{{ site.data.main_info.profile_pic }}",
+    "jobTitle": "Research Scientist",
+    "description": {{ site.data.main_info.description | jsonify }},
+    "alumniOf": "University of California, Berkeley",
+    "sameAs": [
+      "{{ site.data.main_info.linkedin }}",
+      "{{ site.data.main_info.github }}",
+      "{{ site.data.main_info.google_scholar }}",
+      "{{ site.data.main_info.orcid }}"
+    ]
+  }
+  </script>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,11 +55,11 @@
 
   <!-- JQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
+  <script src={{ "/libs/external/jquery-3.7.1.min.js" | prepend: site.baseurl }}></script>
 
   <!-- Font-Awesome
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <!-- Academicons
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,22 +100,12 @@
             <h1>{{ site.data.main_info.name }}</h1>
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
-            <p>
-<!--               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </span> -->
-
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
+            <p><a href="{{ "/assets/cv/jvp-vita.pdf" | prepend: site.baseurl }}" target="_blank">CV</a> &middot; <a href="{{ "/assets/cv/jvp-resume.pdf" | prepend: site.baseurl }}" target="_blank">Resume</a></p>
+            <p class="social-links">
+              <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+              <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+              <a href="{{ site.data.main_info.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
             </p>
         </div>
       </div>
@@ -103,8 +117,9 @@
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li> -->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
       </div>
@@ -121,17 +136,11 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-<!--           <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span> -->
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+          <span class="social-links">
+            <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+            <a href="{{ site.data.main_info.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
           </span>
         </div>
       </div>

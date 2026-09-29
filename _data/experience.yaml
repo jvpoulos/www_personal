@@ -1,30 +1,51 @@
 experiences:
 
-- time: "2023 \u2013 2024"
+- time: "2023 – 2024"
   subtitle: Division of Endocrinology
   place: Brigham and Women's Hospital
   location: Boston, MA
   title: Postdoctoral Fellow in Machine Learning
   category: "work"
 
-- time: "2021 \u2013 2023"
+- time: "2021 – 2023"
   subtitle: Department of Health Care Policy
   place: Harvard Medical School
   location: Boston, MA
   title: Postdoctoral Fellow in Data Science
   category: "work"
 
-- time: "2019 \u2013 2021"
+- time: "2019 – 2021"
   subtitle: Causal Inference and Deep Learning programs
   place: SAMSI
   location: Durham, NC
   title: Postdoctoral Associate in Statistics
   category: "work"
 
-- time: "2013 \u2013 2019"
+- time: "2013 – 2019"
   subtitle: Designated Emphasis in Computational Science
     and Engineering
   place: University of California, Berkeley
   location: Berkeley, CA
   title: Ph.D., Political Science
-  ategory: "school"
+  category: "school"
+
+- time: "2011 – 2013"
+  subtitle: "Department of Political Science; also a Graduate Special Student taking non-degree graduate coursework in Economics"
+  place: MIT
+  location: Cambridge, MA
+  title: Research Support Associate
+  category: "work"
+
+- time: "2009 – 2011"
+  subtitle: "Department of Economics (at the NBER) and Harvard Decision Science Laboratory (Harvard Kennedy School); also took non-degree graduate coursework in Economics"
+  place: Harvard University
+  location: Cambridge, MA
+  title: Research Assistant
+  category: "work"
+
+- time: "2004 – 2008"
+  subtitle: Phi Beta Kappa
+  place: University of Massachusetts Amherst
+  location: Amherst, MA
+  title: B.A., Economics
+  category: "school"

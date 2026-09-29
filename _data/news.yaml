@@ -1,0 +1,91 @@
+# News items, newest first. `text` may contain HTML.
+# Only 2026 items are shown; earlier items are kept below as comments for reuse.
+news:
+
+- date: "Jul 2026"
+  text: '<a href="https://doi.org/10.1080/01621459.2023.2183129" target="_blank">"Adversarial Machine Learning: Bayesian Perspectives"</a> (<i>JASA</i>, 2023), with David Ríos Insua, Roi Naveiro, and Víctor Gallego, received the <a href="https://www.seio.es/premios-seio-fbbva/" target="_blank">Premio SEIO–Fundación BBVA 2026</a> for Best Contribution from Statistics and Operations Research to Data Science.'
+
+
+- date: "Jan 2026"
+  text: '<a href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank">Humanity''s Last Exam</a>, a benchmark of expert-level academic questions to assess AI capabilities, is published in <i>Nature</i>.'
+
+
+- date: "Jan 2026"
+  text: '<a href="https://arxiv.org/abs/2601.11868" target="_blank">Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces</a> is accepted at ICLR 2026.'
+
+
+# ---- Earlier items (not displayed) ----
+# - date: "Jun 2025"
+#   text: 'My <a href="https://www.tbench.ai/news/tasks-06-20-25#parallelize-graph-algorithm-scientific-computing-with-upc" target="_blank">parallelize-graph task</a>, which asks AI agents to implement parallel de Bruijn graph construction for genome assembly in Unified Parallel C, is featured in the Terminal-Bench task spotlight.'
+#
+# - date: "May 2025"
+#   text: 'Began contributing to <a href="https://www.tbench.ai/" target="_blank">Terminal-Bench</a>, building scientific-computing tasks that evaluate AI agents on long-horizon work in the terminal (8 tasks merged).'
+#
+# - date: "Mar 2025"
+#   text: 'Joined Scale AI''s Human Frontier Collective as a contract specialist, designing domain-specific problem sets to evaluate LLMs and training machine learning engineer agents.'
+#
+# - date: "Jan 2025"
+#   text: '<a href="https://lastexam.ai/" target="_blank">Humanity''s Last Exam</a> is released by the Center for AI Safety and Scale AI. I contributed expert-level questions and am a co-author.'
+#
+# - date: "Aug 2024"
+#   text: '<a href="https://doi.org/10.1192/bjo.2024.727" target="_blank">"Revisiting Diabetes Risk of Olanzapine versus Aripiprazole for Serious Mental Illness Care"</a> is published in <i>BJPsych Open</i>.'
+#
+# - date: "Jun 2024"
+#   text: '<a href="https://doi.org/10.1080/2330443X.2024.2356514" target="_blank">"State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction"</a> is published in <i>Statistics and Public Policy</i>.'
+#
+# - date: "Feb 2024"
+#   text: '<a href="https://doi.org/10.1002/sim.10003" target="_blank">"Targeted Learning in Observational Studies with Multi-Valued Treatments: An Evaluation of Antipsychotic Drug Treatment Safety"</a> is published in <i>Statistics in Medicine</i>.'
+#
+# - date: "Sep 2023"
+#   text: 'Joined the Division of Endocrinology at Brigham and Women''s Hospital and Harvard Medical School as a Postdoctoral Research Fellow in Machine Learning.'
+#
+# - date: "Sep 2023"
+#   text: '<a href="https://doi.org/10.1017/S0033291723001502" target="_blank">"Antipsychotics and the Risk of Diabetes and Death among Adults with Serious Mental Illnesses"</a> is published in <i>Psychological Medicine</i>.'
+#
+# - date: "Mar 2023"
+#   text: '<a href="https://doi.org/10.1080/01621459.2023.2183129" target="_blank">"Adversarial Machine Learning: Bayesian Perspectives"</a> is published in the <i>Journal of the American Statistical Association</i>.'
+#
+# - date: "Mar 2023"
+#   text: 'Invited talk at the Department of Engineering & Public Policy, Carnegie Mellon University.'
+#
+# - date: "Feb 2023"
+#   text: 'Invited talk at the Dalla Lana School of Public Health, University of Toronto.'
+#
+# - date: "Feb 2023"
+#   text: '<a href="https://doi.org/10.1561/115.00000042" target="_blank">"Gender Gaps in Frontier Entrepreneurship? Evidence from 1901 Oklahoma Land Lottery Winners"</a> is published in the <i>Journal of Historical Political Economy</i>.'
+#
+# - date: "Dec 2022"
+#   text: 'Invited talk at Brandeis International Business School, Brandeis University.'
+#
+# - date: "Dec 2022"
+#   text: '<a href="http://www.statcan.gc.ca/pub/12-001-x/2022002/article/00009-eng.htm" target="_blank">"Are Deep Learning Models Superior for Missing Data Imputation in Surveys? Evidence from an Empirical Comparison"</a> is published in <i>Survey Methodology</i>.'
+#
+# - date: "Jul 2022"
+#   text: 'Invited lecture at the Canadian Statistical Sciences Institute summer school on Modern Techniques in Survey Sampling, University of Ottawa.'
+#
+# - date: "Feb 2022"
+#   text: 'Invited talk at the Department of Mathematics, Université du Québec à Montréal.'
+#
+# - date: "Nov 2021"
+#   text: '<a href="https://doi.org/10.1561/115.00000013" target="_blank">"Amnesty Policy and Elite Persistence in the Postbellum South: Evidence from a Regression Discontinuity Design"</a> is published in the <i>Journal of Historical Political Economy</i>.'
+#
+# - date: "Oct 2021"
+#   text: 'Invited talk at the Statistical Methods for Computational Advertising workshop, Banff International Research Station.'
+#
+# - date: "Sep 2021"
+#   text: 'Joined the Department of Health Care Policy at Harvard Medical School as a Postdoctoral Fellow in Data Science.'
+#
+# - date: "Aug 2021"
+#   text: '<a href="https://doi.org/10.1111/rssc.12511" target="_blank">"RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling"</a> is published in the <i>Journal of the Royal Statistical Society, Series C</i>.'
+#
+# - date: "Feb 2021"
+#   text: '<a href="https://doi.org/10.1007/s00521-021-05813-1" target="_blank">"Character-Based Handwritten Text Transcription with Attention Networks"</a> is published in <i>Neural Computing &amp; Applications</i>.'
+#
+# - date: "Oct 2020"
+#   text: '<a href="https://doi.org/10.1515/jci-2018-0035" target="_blank">"Estimating Population Average Treatment Effects from Experiments with Noncompliance"</a> is published in the <i>Journal of Causal Inference</i>.'
+#
+# - date: "Aug 2019"
+#   text: 'Joined the Statistical and Applied Mathematical Sciences Institute (SAMSI) and Duke University as a Postdoctoral Associate in the Causal Inference and Deep Learning programs.'
+#
+# - date: "2019"
+#   text: 'Received a Ph.D. in Political Science with a Designated Emphasis in Computational Science and Engineering from UC Berkeley.'

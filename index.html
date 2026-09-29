@@ -9,8 +9,17 @@ title:
       <p>I am an independent researcher whose work lies at the intersection of machine learning, causal inference, and policy. I hold a Ph.D. in Political Science with a Designated Emphasis in Computational Science and Engineering from UC Berkeley and have held postdoctoral appointments in machine learning and data science.</p>
 
       <p>My current research evaluates frontier AI models by designing evaluation frameworks that measure model capabilities and translate safety concerns into measurable tests. I have published studies on causal inference with multi-valued treatments, Bayesian frameworks for adversarial machine learning, and deep learning-based missing-data imputation and counterfactual prediction.</p>
+      <p>Highlights: I co-authored <a href="https://www.tbench.ai/" target="_blank">Terminal-Bench</a> (ICLR 2026), contributing eight benchmark tasks, including a <a href="https://www.tbench.ai/news/tasks-06-20-25#parallelize-graph-algorithm-scientific-computing-with-upc" target="_blank">genome-assembly task featured in the task spotlight</a>, and <a href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank">Humanity's Last Exam</a> (<i>Nature</i>, 2026). Co-authored work on <a href="https://doi.org/10.1080/01621459.2023.2183129" target="_blank">Bayesian adversarial machine learning</a> received the <a href="https://www.seio.es/premios-seio-fbbva/" target="_blank">Premio SEIO&ndash;Fundaci&oacute;n BBVA 2026</a>.</p>
       <!-- <p>I earned a Ph.D. in Political Science with a Designated Emphasis in Computational Science and Engineering from UC Berkeley.</p> -->
       <!-- <p><font color="#1EAEDB"><b>I am actively exploring research scientist roles in tech and health sciences, aiming to leverage my expertise in machine learning and causal inference to solve complex problems and advance knowledge in these domains.</b></font></p>     -->
+</div>
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h4>News</h4>
+  {% for item in site.data.news.news %}
+    <div class="news-item"><span class="news-date">{{ item.date }}</span><span class="news-text">{{ item.text }}</span></div>
+  {% endfor %}
 </div>
 
 <!-- ========== PUBLICATIONS ========== -->
@@ -138,86 +147,29 @@ title:
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== 
+<!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+  {% for project in site.data.projects.projects %}
+    <div class="paper">
+      <p class="title"><b>{{ project.title }}</b>{% if project.time %} <span class="project-time">{{ project.time }}</span>{% endif %}</p>
+      <p>{{ project.description }}</p>
+      <div class="paper-buttons">
+        {% if project.website %}<a class="button" href="{{ project.website }}" target="_blank">Website</a>{% endif %}
+        {% if project.code %}<a class="button" href="{{ project.code }}" target="_blank">Code</a>{% endif %}
+        {% if project.slides %}<a class="button" href="{{ project.slides | prepend: site.baseurl }}" target="_blank">Slides</a>{% endif %}
+        {% if project.paper %}<a class="button" href="{{ project.paper }}" target="_blank">Paper</a>{% endif %}
+        {% if project.blog %}<a class="button" href="{{ project.blog }}" target="_blank">Blog</a>{% endif %}
+      </div>
     </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
+  {% endfor %}
 </div>
--->
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full CV: <a href={{ "/assets/cv/jvp-vita.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full CV: <a href={{ "/assets/cv/jvp-vita.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>. Industry resume: <a href={{ "/assets/cv/jvp-resume.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <!-- The Timeline -->
   <ul class="timeline">

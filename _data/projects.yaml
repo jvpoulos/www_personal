@@ -1,54 +1,13 @@
+# Research projects shown in the Projects section, newest first.
+# Buttons appear for any of: website, code, slides, paper, blog.
 projects:
-  - title: "Detecting Network Effects"
-    subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
-    selected: y
 
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
-    selected: y
+- title: "Transformer Models for Diabetes Treatment Failure"
+  time: "2023–2024"
+  description: 'Interpretable transformer neural networks trained on over 10 million clinical events from Mass General Brigham electronic health records, combining static and temporal patient features to predict diabetes treatment failure (HbA1c &ge; 7% within 12 months). Compares tabular transformers with a GPT-style autoregressive transformer on patient event streams.'
+  code: "https://github.com/jvpoulos/diabetes_pred"
+  slides: "/assets/slides/diabetes_pred_slides_2024.pdf"
 
-  - title: "Responsive Communities"
-    subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/2015_jun/thumbnail.png"
-    url: "projects/2015_jun.html"
-    selected: y
-
-  - title: "Cold-Start Recommendations"
-    subtitle: "Learning Local Collective Embeddings"
-    thumbnail: "assets/projects/2014_item-cold-start/thumbnail.jpg"
-    url: "projects/2014_item-cold-start.html"
-    selected: n
-
-  - title: "Semi-supervised Learning"
-    subtitle: "Iterative Hybrid Algorithm"
-    thumbnail: "assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg"
-    url: "projects/2013_iterative-hybrid-algorithm.html"
-    selected: n
-
-  - title: "Twitter Sentiment Analysis"
-    subtitle: "Analyzing Financial Tweets"
-    thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
-    url: "projects/2011_twitter-sentiment-analysis.html"
-    selected: n
-
-  - title: "Wordnet Construction"
-    subtitle: "Automatic Wordnet Construction using Language Models"
-    thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
-    url: "projects/2010_wordnet-contruction.html"
-    selected: n
-
-  - title: "Fingerprint Verification"
-    subtitle: "Image processing class project"
-    thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
-    url: "projects/2010_fingerprint-verification.html"
-    selected: n
-
-  - title: "Connect Four AI Agent"
-    subtitle: "Iterative deepening and alpha-beta pruning"
-    thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
-    url: "projects/2009_connect-four.html"
-    selected: n
+- title: "Doubly Robust Causal Inference with Multi-Valued Treatment Regimes and RNNs"
+  description: 'Extends the longitudinal targeted minimum loss-based estimator (LTMLE) to multi-valued treatment regimes by modeling treatment assignment with a multinomial model, and integrates recurrent neural networks as an alternative to sequential g-computation. In simulations, the multinomial model improves efficiency over a series of binomial regressions, and LTMLE with RNNs reduces average bias relative to ensemble machine learning. Motivated by the safety of antipsychotic treatment regimes for adults with serious mental illnesses.'
+  code: "https://github.com/jvpoulos/multi-ltmle"
